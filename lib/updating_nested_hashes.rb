@@ -58,6 +58,11 @@ def add_characters
 
 
 epic_tragedy[:additional_characters] = []
+ prince = {name: "Prince Escalus"}
+ apothecary = {name: "Apothecary"}
+ 
+ epic_tragedy[:additional_characters] << prince
+ epic_tragedy[:additional_characters] << apothecary
    # Write code below that does the following programmatically:
    #
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
